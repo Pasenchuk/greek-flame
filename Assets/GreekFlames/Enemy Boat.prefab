@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000010221018370}
   - 54: {fileID: 54000011313295064}
+  - 114: {fileID: 114000010567618738}
   m_Layer: 0
   m_Name: Enemy Boat
   m_TagString: Untagged
@@ -136,6 +137,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1482.8215, y: 5167.3667, z: 4965.3525}
   m_Center: {x: -908.64734, y: 2211.823, z: 748.2294}
+--- !u!114 &114000010567618738
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013162385260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b94580b6d344ec6a799628eefa12ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114000014291023810
 MonoBehaviour:
   m_ObjectHideFlags: 1
