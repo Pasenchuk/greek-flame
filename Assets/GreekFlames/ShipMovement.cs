@@ -17,7 +17,7 @@ public class ShipMovement : MonoBehaviour {
 
 
 		rb.velocity = new Vector3 (Clamp (currentVelocity.x), Clamp (currentVelocity.y), Clamp (currentVelocity.z));
-		gameObject.transform.Rotate (Vector3.up * Input.GetAxis ("Horizontal") * Time.deltaTime * 4);
+		gameObject.transform.Rotate (Vector3.up * Input.GetAxis ("Horizontal") * Time.deltaTime * 10);
 
 		//Debug.Log (currentVelocity);
 	}

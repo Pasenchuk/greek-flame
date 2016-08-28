@@ -28,6 +28,6 @@ public class SeaPitching : MonoBehaviour
 				direction = true;
 		}
 
-		transform.localEulerAngles = new Vector3 (angle, 0, 0);
+		transform.localEulerAngles = new Vector3 (angle, transform.localEulerAngles.y, 0);
 	}
 }
