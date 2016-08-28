@@ -25,7 +25,6 @@ GameObject:
   - 81: {fileID: 81000014145834384}
   - 114: {fileID: 114000014139661356}
   - 114: {fileID: 114000010155353340}
-  - 114: {fileID: 114000012332213112}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -70,7 +69,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &1000013325689796
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -108,13 +107,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013325689796}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -895, y: 769, z: 2679}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.0030000615, y: -0.48099998, z: -0.2969998}
+  m_LocalScale: {x: 0.0010000002, y: 0.001, z: 0.0010000002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 4000012733678670}
-  m_RootOrder: 2
+  m_Father: {fileID: 4000013898741366}
+  m_RootOrder: 0
 --- !u!4 &4000012733678670
 Transform:
   m_ObjectHideFlags: 1
@@ -128,7 +127,6 @@ Transform:
   m_Children:
   - {fileID: 4000013492552422}
   - {fileID: 4000013898741366}
-  - {fileID: 4000012210623584}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &4000013492552422
@@ -155,6 +153,7 @@ Transform:
   m_LocalScale: {x: 999.9999, y: 999.99994, z: 999.9999}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 4000012210623584}
   - {fileID: 4000014262990128}
   m_Father: {fileID: 4000012733678670}
   m_RootOrder: 1
@@ -170,7 +169,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4000013898741366}
-  m_RootOrder: 0
+  m_RootOrder: 1
 --- !u!20 &20000013361249632
 Camera:
   m_ObjectHideFlags: 1
@@ -344,7 +343,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011321419472}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 56b94580b6d344ec6a799628eefa12ba, type: 3}
   m_Name: 
@@ -362,18 +361,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reticleSegments: 20
   reticleGrowthSpeed: 8
---- !u!114 &114000012332213112
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010109536176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3bbee19e98a694a98918c04b3a4f2c85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bullet: {fileID: 0}
 --- !u!114 &114000013763114752
 MonoBehaviour:
   m_ObjectHideFlags: 1

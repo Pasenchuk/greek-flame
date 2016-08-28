@@ -27,7 +27,7 @@ public class WeaponControl : MonoBehaviour
 			coolDown = COOLDOWN_TIME;
 
 			// Instantiate the projectile at the position and rotation of this transform
-			var clone = (GameObject)Instantiate (bullet, transform.position, transform.rotation);
+			var clone = (GameObject)Instantiate (bullet, transform.parent.position, transform.parent.rotation);
 
 			// Add force to the cloned object in the object's forward direction
 			clone.GetComponent<Rigidbody> ().AddForce ((clone.transform.forward + new Vector3 (0, 0.1f, 0)) * 30);
