@@ -8,6 +8,7 @@ public class ShipMovement : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		rb = gameObject.GetComponent<Rigidbody> ();
+		transform.localEulerAngles = new Vector3 (0, Random.Range (-180, 180), 0);
 	}
 	
 	// Update is called once per frame
