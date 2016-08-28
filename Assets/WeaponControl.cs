@@ -30,7 +30,7 @@ public class WeaponControl : MonoBehaviour
 			var clone = (GameObject)Instantiate (bullet, transform.position, transform.rotation);
 
 			// Add force to the cloned object in the object's forward direction
-			clone.GetComponent<Rigidbody> ().AddForce ((clone.transform.forward + new Vector3 (0, 0.1f, 0)) * 1000);
+			clone.GetComponent<Rigidbody> ().AddForce ((clone.transform.forward + new Vector3 (0, 0.1f, 0)) * 30);
 		}
 
 		
