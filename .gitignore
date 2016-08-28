@@ -10,6 +10,8 @@ build/
 # https://raw.githubusercontent.com/googlevr/gvr-unity-sdk/master/GoogleVRForUnity.unitypackage
 Assets/Plugins/iOS/
 
+*.keystore
+
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
