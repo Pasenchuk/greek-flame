@@ -6,6 +6,8 @@ Library/
 *.apk
 build/
 
+# Exclude iOS building support files. For adding them to project, get GoogleVRForUnity.unitypackage from:
+# https://raw.githubusercontent.com/googlevr/gvr-unity-sdk/master/GoogleVRForUnity.unitypackage
 Assets/Plugins/iOS/
 
 # ===================================== #
